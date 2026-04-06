@@ -50,6 +50,9 @@
             }
         },
 
+        "includeInSameQuestsAsOrigin": false,
+        "addSpawnsInSamePlacesAsOrigin": true,
+        "spawnWeightComparedToOrigin": 0.4,
         "addtoStaticLootContainers": false
     }
 }
