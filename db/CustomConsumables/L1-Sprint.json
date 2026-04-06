@@ -1,0 +1,58 @@
+{
+    "68337a2a20c7d7d769369919": {
+        "itemTplToClone": "5c0e530286f7747fa1419862",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "L1-SprintBuffs",
+            "MaxResource": 2,
+            "effects_health": {},
+            "effects_damage": {
+                "Pain": {
+                    "delay": 0,
+                    "duration": 180,
+                    "fadeOut": 10
+                }
+            },
+            "MaxHpResource": 2
+        },
+
+        "locales": {
+            "en": {
+                "name": "L1-Sprint",
+                "shortName": "L1-Sprint",
+                "description": "Lightweight stim boosting sprint duration by 60% and endurance XP rate by 20%. Includes minor painkiller effect and slight increase in movement noise."
+            }
+        },
+
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d3bf76ce2ee439edc27c99": {
+                    "barterSettings": {
+                        "loyalLevel": 3,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 2
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 20000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "includeInSameQuestsAsOrigin": false,
+        "addSpawnsInSamePlacesAsOrigin": true,
+        "spawnWeightComparedToOrigin": 1,
+        "addtoStaticLootContainers": false
+    }
+}

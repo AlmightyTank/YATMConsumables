@@ -1,0 +1,54 @@
+{
+    "68337b7aff2eb46775159b1e": {
+        "itemTplToClone": "5c10c8fd86f7743d7d706df3",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "MULEPlusBuffs",
+            "MaxResource": 2,
+            "effects_health": {
+                "Hydration": { "value": -30 },
+                "Energy": { "value": -30 }
+            },
+            "MaxHpResource": 2
+        },
+
+        "locales": {
+            "en": {
+                "name": "M.U.L.E. Plus",
+                "shortName": "M.U.L.E.+",
+                "description": "Endurance and carry weight stim with balanced hydration and energy penalties. Great for loot runs and solo raids."
+            }
+        },
+
+        "fleaPriceRoubles": 98000,
+        "handbookPriceRoubles": 98000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d3bf76ce2ee439edc27c99": {
+                    "barterSettings": {
+                        "loyalLevel": 3,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 2
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 98000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "includeInSameQuestsAsOrigin": false,
+        "addSpawnsInSamePlacesAsOrigin": true,
+        "spawnWeightComparedToOrigin": 1,
+        "addtoStaticLootContainers": false
+    }
+}

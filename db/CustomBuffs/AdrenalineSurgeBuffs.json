@@ -1,0 +1,22 @@
+{
+    "AdrenalineSurgeBuffs": [
+        {
+            "AbsoluteValue": false,
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 180,
+            "SkillName": "",
+            "Value": 0.25
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 180,
+            "SkillName": "Strength",
+            "Value": 0.15
+        }
+    ]
+}

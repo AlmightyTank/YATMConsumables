@@ -1,0 +1,22 @@
+{
+    "MULEPlusBuffs": [
+        {
+            "BuffType": "WeightLimit",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 600,
+            "Value": 0.75,
+            "AbsoluteValue": false,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Strength",
+            "Value": 0.15
+        }
+    ]
+}

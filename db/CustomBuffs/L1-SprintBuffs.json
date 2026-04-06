@@ -1,0 +1,40 @@
+{
+    "L1-SprintBuffs": [
+        {
+            "AbsoluteValue": false,
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 0.25
+        },
+        {
+            "BuffType": "DamageModifier",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 600,
+            "Value": -0.1,
+            "AbsoluteValue": false,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Endurance",
+            "Value": 0.2
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "Strength",
+            "Value": 0.2
+        }
+    ]
+}
