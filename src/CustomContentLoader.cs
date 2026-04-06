@@ -5,7 +5,7 @@ using SPTarkov.Server.Core.Models.Spt.Mod;
 using System.Reflection;
 using Range = SemanticVersioning.Range;
 
-namespace YATMWeapons.src;
+namespace YATMConsumables.src;
 
 public record ModMetadata : AbstractModMetadata
 {
@@ -14,7 +14,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Author { get; init; } = "AmightyTank";
     public override List<string>? Contributors { get; init; } = [];
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.11");
+    public override Range SptVersion { get; init; } = new("~4.0.11");
     public override List<string>? Incompatibilities { get; init; } = [];
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
