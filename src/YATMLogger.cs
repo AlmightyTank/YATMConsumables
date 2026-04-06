@@ -3,7 +3,7 @@
 using System;
 using System.IO;
 
-namespace YATMWeapons.src;
+namespace YATMConsumables.src;
 
 public static class YATMLogger
 {

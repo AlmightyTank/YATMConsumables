@@ -2,7 +2,7 @@ using System.Reflection; // [NEW] For reflection
 using System.Text.Json;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Servers;
-using YATMWeapons.src;
+using YATMConsumables.src;
 using Path = System.IO.Path; // [FIX] Ambiguity
 
 namespace YATMWeapons.config;
