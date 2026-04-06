@@ -6,7 +6,6 @@
 
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "BackgroundColor": "red",
             "StimulatorBuffs": "AHF1MPlusBuffs",
             "effects_health": {
                 "Energy": { "value": -5 }
