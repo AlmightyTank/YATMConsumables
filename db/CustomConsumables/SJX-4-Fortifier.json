@@ -1,0 +1,45 @@
+{
+    "6833237c8ac71af4b28cbe84": {
+        "itemTplToClone": "5ed515c8d380ab312177c0fa",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "FortifierBuffs"
+        },
+
+        "locales": {
+            "en": {
+                "name": "SJX-4 Fortifier Injector",
+                "shortName": "SJX-4",
+                "description": "A carefully dosed combination of Propital and 3-(b-TG), tailored to improve combat survivability and wound resistance."
+            }
+        },
+
+        "fleaPriceRoubles": 135000,
+        "handbookPriceRoubles": 135000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d2281c164c6b19c94d793b": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 135000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "addtoStaticLootContainers": false
+    }
+}

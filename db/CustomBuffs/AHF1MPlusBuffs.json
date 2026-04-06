@@ -1,0 +1,13 @@
+{
+    "AHF1MPlusBuffs": [
+        {
+            "AbsoluteValue": false,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": 2.5
+        }
+    ]
+}

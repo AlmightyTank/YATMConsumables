@@ -1,0 +1,40 @@
+{
+    "StealthBuffs": [
+        {
+            "BuffType": "BodyTemperature",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "Value": -4,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "BuffType": "BodyTemperature",
+            "Chance": 1,
+            "Delay": 600,
+            "Duration": 300,
+            "Value": 6,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 600,
+            "Value": -0.05,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": -0.05
+        }
+    ]
+}

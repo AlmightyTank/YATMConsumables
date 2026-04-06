@@ -1,0 +1,45 @@
+{
+    "683288ecdf6daf7c654cdb06": {
+        "itemTplToClone": "5ed5160a87bb8443d10680b5",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "Meldoninv135Buffs"
+        },
+
+        "locales": {
+            "en": {
+                "name": "Meldonin v13.5 Injector",
+                "shortName": "Meld v13.5",
+                "description": "An older variation of a drug developed for athletes. Allows conducting more intensive training and recovering stamina faster. Temporarily increases strength, endurance,and also accelerates recovery. An undocumented property was also found: it increases the resistance of tissues to physical impact due to internal muscle tension. Because of its properties, it was later adopted by the military as a combat stimulant. Has side effects."
+            }
+        },
+
+        "fleaPriceRoubles": 55900,
+        "handbookPriceRoubles": 55900,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d2280ec80e98e20b610b7c": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 90000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "addtoStaticLootContainers": false
+    }
+}

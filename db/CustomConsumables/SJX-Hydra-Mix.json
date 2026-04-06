@@ -1,0 +1,55 @@
+{
+    "683361256ef8a3ee9b04d226": {
+        "itemTplToClone": "60098b1705871270cd5352a1",
+        "parentId": "5448e8d64bdc2dce718b4568",
+        "handbookParentId": "5b47574386f77428ca22b335",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "HydraMixBuffs",
+            "effects_damage": {
+            },
+            "effects_health": {
+                "Hydration": {
+                    "value": 60
+                },
+                "Energy": {
+                    "value": 10
+                }
+            }
+        },
+
+        "locales": {
+            "en": {
+                "name": "SJX-Hydra Mix",
+                "shortName": "Hydra Mix",
+                "description": "A stimulant-infused hydration cocktail meant for field recovery. Offers quick hydration with minor side boosts."
+            }
+        },
+
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 65000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d2280ec80e98e20b610b7c": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 65000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "addtoStaticLootContainers": false
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "HydraMixBuffs": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 10,
+            "SkillName": "",
+            "Value": 2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "MaxStamina",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 25
+        }
+    ]
+}

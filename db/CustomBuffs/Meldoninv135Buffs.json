@@ -1,0 +1,58 @@
+{
+    "Meldoninv135Buffs": [
+        {
+            "BuffType": "DamageModifier",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 900,
+            "Value": -0.1,
+            "AbsoluteValue": false,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 900,
+            "SkillName": "Strength",
+            "Value": 10
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 900,
+            "SkillName": "Endurance",
+            "Value": 20
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 900,
+            "SkillName": "",
+            "Value": 0.5
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 900,
+            "SkillName": "",
+            "Value": -0.1
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 900,
+            "SkillName": "",
+            "Value": -0.1
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "_id": "683325a919780501ecd0f4c5",
+    "areaType": 7,
+    "requirements": [
+        {
+            "areaType": 7,
+            "requiredLevel": 3,
+            "type": "Area"
+        },
+        {
+            "templateId": "5fca13ca637ee0341a484f46",
+            "count": 1,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+        },
+        {
+            "templateId": "5af0548586f7743a532b7e99",
+            "count": 1,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+        },
+        {
+            "templateId": "5448fee04bdc2dbc018b4567",
+            "count": 1,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+        },
+        {
+            "templateId": "5e2af02c86f7746d420957d4",
+            "count": 1,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+        }
+    ],
+    "productionTime": 16200,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "6833259d5bbfac390bc044cf",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+}

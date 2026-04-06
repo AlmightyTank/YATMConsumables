@@ -1,0 +1,31 @@
+{
+    "RationBarBuffs": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Endurance",
+            "Value": 15
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Strength",
+            "Value": 15
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": 0.40
+        }
+    ]
+}

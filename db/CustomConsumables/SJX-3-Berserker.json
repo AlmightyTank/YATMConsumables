@@ -1,0 +1,52 @@
+{
+    "68331fef74231628e6e63f25": {
+        "itemTplToClone": "5ed515f6915ec335206e4152",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "BerserkerBuffs",
+            "effects_damage": {
+                "Pain": {
+                    "delay": 0,
+                    "duration": 180,
+                    "fadeOut": 30
+                }
+            }
+        },
+
+        "locales": {
+            "en": {
+                "name": "SJX-3 Berserker Injector",
+                "shortName": "SJX-3",
+                "description": "An unregulated stimulant blend based loosely on AHF1 and Obdolbos. Delivers raw physical power at the cost of fine motor control."
+            }
+        },
+
+        "fleaPriceRoubles": 120000,
+        "handbookPriceRoubles": 120000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d22822f370ef8a7200087d": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 120000,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 65000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "addtoStaticLootContainers": false
+    }
+}

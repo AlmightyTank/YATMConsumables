@@ -1,0 +1,49 @@
+{
+    "FortifierBuffs": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "",
+            "Value": 0.5
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Health",
+            "Value": 30
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Vitality",
+            "Value": 30
+        },
+        {
+            "BuffType": "StaminaRate",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 300,
+            "Value": -0.8,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Endurance",
+            "Value": -10
+        }
+    ]
+}

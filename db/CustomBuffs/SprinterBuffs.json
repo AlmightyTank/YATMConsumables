@@ -1,0 +1,49 @@
+{
+    "SprinterBuffs": [
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "Strength",
+            "Value": 10
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "Perception",
+            "Value": 30
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "Attention",
+            "Value": 30
+        },
+        {
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 240,
+            "Value": -0.25,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 30,
+            "Duration": 240,
+            "SkillName": "",
+            "Value": -0.25
+        }
+    ]
+}

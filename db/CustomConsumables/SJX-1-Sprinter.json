@@ -1,0 +1,45 @@
+{
+    "68331b17cccc72d0db1f764b": {
+        "itemTplToClone": "5c0e531d86f7747fa23f4d42",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "SprinterBuffs"
+        },
+
+        "locales": {
+            "en": {
+                "name": "SJX-1 Sprinter Injector",
+                "shortName": "SJX-1",
+                "description": "A mix of SJ6 and Meldonin derivatives designed for extended burst movement. Originally synthesized to aid medics in navigating hot zones quickly."
+            }
+        },
+
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 65000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d2282d9950132a0fd513cd": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 65000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "addtoStaticLootContainers": false
+    }
+}
