@@ -1,13 +1,58 @@
 {
     "AHF1MPlusBuffs": [
         {
-            "AbsoluteValue": false,
+            "AbsoluteValue": true,
             "BuffType": "HealthRate",
             "Chance": 1,
             "Delay": 0,
             "Duration": 300,
             "SkillName": "",
             "Value": 2.5
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "RemoveAllBloodLosses",
+            "Chance": 1,
+            "Delay": 1,
+            "Duration": 90,
+            "SkillName": "",
+            "Value": 0
+        },
+        {
+            "BuffType": "EnergyRate",
+            "Chance": 1,
+            "Delay": 100,
+            "Duration": 180,
+            "Value": -0.2,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "HydrationRate",
+            "Chance": 1,
+            "Delay": 80,
+            "Duration": 180,
+            "SkillName": "",
+            "Value": -0.2
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Vitality",
+            "Value": 10
+        },
+        {
+            "AbsoluteValue": true,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 300,
+            "SkillName": "Health",
+            "Value": 10
         }
     ]
 }
