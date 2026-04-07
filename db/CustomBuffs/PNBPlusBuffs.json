@@ -1,0 +1,31 @@
+{
+    "PNBPlusBuffs": [
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "RecoilControl",
+            "Value": 0.15
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "AimStability",
+            "Value": 0.20
+        },
+        {
+            "AbsoluteValue": false,
+            "BuffType": "SkillRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 240,
+            "SkillName": "MovementNoise",
+            "Value": -0.10
+        }
+    ]
+}
