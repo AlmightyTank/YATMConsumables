@@ -1,0 +1,13 @@
+{
+    "REGENX7Buffs": [
+        {
+            "AbsoluteValue": false,
+            "BuffType": "HealthRate",
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 600,
+            "SkillName": "",
+            "Value": 3.0
+        }
+    ]
+}
