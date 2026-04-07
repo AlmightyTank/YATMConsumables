@@ -1,0 +1,53 @@
+{
+    "68336a67ce152b72dc40abf6": {
+        "itemTplToClone": "5ed5166ad380ab312177c100",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "ObdolbosPlusBuffs",
+            "MaxHPResource": 2,
+            "effects_health": {
+                "Hydration": { "value": -15 },
+                "Energy": { "value": -15 }
+            }
+        },
+
+        "locales": {
+            "en": {
+                "name": "Obdolbos Plus",
+                "shortName": "Obdolbos+",
+                "description": "Madman's stim boosting strength, endurance, and perception XP plus stamina regen and carry weight. Comes with 10% chance to fracture limbs after 5 minutes and tremor effect for 2 minutes."
+            }
+        },
+
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 60000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d3bf87d56ac773f34f794e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 60000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "includeInSameQuestsAsOrigin": false,
+        "addSpawnsInSamePlacesAsOrigin": true,
+        "spawnWeightComparedToOrigin": 1,
+        "addtoStaticLootContainers": false
+    }
+}
