@@ -1,0 +1,59 @@
+{
+    "68336e67abd18e611ecbf182": {
+        "itemTplToClone": "5c0e533786f7747fa23f4d47",
+        "parentId": "5448f3a64bdc2d60728b456a",
+        "handbookParentId": "5b47574386f77428ca22b33a",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "StimulatorBuffs": "ZagustinPlusBuffs",
+            "MaxHPResource": 2,
+            "effects_health": {
+                "Hydration": { "value": -15 }
+            },
+            "effects_damage": {
+                "Pain": {
+                    "delay": 0,
+                    "duration": 60,
+                    "fadeOut": 15
+                }
+            }
+        },
+
+        "locales": {
+            "en": {
+                "name": "Zagustin Plus",
+                "shortName": "Zagustin+",
+                "description": "Enhanced emergency bleed suppressor with faster activation and extended prevention of new bleeds. Includes a painkiller effect and light hydration penalty. Ideal for high-risk PvP and rogue encounters."
+            }
+        },
+
+        "fleaPriceRoubles": 45000,
+        "handbookPriceRoubles": 45000,
+
+        "addtoTraders": true,
+        "traders": {
+            "698f904cd0fa772942d237c7": {
+                "69d51084c7459898c0f5d67c": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
+                    },
+                    "barters": [
+                        {
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 45000
+                        }
+                    ]
+                }
+            }
+        },
+
+        "includeInSameQuestsAsOrigin": false,
+        "addSpawnsInSamePlacesAsOrigin": true,
+        "spawnWeightComparedToOrigin": 1,
+        "addtoStaticLootContainers": false
+    }
+}
