@@ -1,3 +1,4 @@
+using CommonLibExtended.Items.Services;
 using CommonLibExtended.Services;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
@@ -29,7 +30,7 @@ public record ModMetadata : AbstractModMetadata
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 6)]
 public sealed class CustomContentLoader(
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
-    CommonLibExtendedBootstrap commonLibExtendedBootstrap) : IOnLoad
+    CLEItemBootstrap cleItemBootstrap) : IOnLoad
 {
     public async Task OnLoad()
     {
@@ -71,7 +72,7 @@ public sealed class CustomContentLoader(
 
             foreach (var path in itemPaths)
             {
-                await commonLibExtendedBootstrap.ProcessTheRest(assembly, path);
+                await cleItemBootstrap.ProcessTheRest(assembly, path);
             }
 
             YATMLogger.Log("[CustomContentLoader] Finished loading CommonLibExtended items.");
