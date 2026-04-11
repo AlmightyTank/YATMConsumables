@@ -14,14 +14,18 @@
                 "Energy": {
                     "value": 55
                 }
+            },
+            "Prefab": {
+                "path": "items/item_sjxfr_loot.bundle",
+                "rcid": ""
             }
         },
 
         "locales": {
             "en": {
-                "name": "SJX-Ration Bar",
-                "shortName": "Ration Bar",
-                "description": "High-energy survival bar infused with military-grade metabolism enhancers. Commonly issued to PMCs for prolonged engagements."
+                "name": "SJX Field Ration",
+                "shortName": "Field Ration",
+                "description": "A compact meal pouch packed for extended operations. Modified with SJX stimulant compounds to keep operators moving through long deployments at the cost of hydration."
             }
         },
 

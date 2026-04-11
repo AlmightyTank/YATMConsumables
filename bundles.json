@@ -6,15 +6,26 @@
 		},
 		{
 			"key": "items/item_sjxhydramix_assets.bundle",
-			"dependencyKeys": [
-				"epic_shaders.bundle"
-			]
+			"dependencyKeys": []
 		},
 		{
 			"key": "items/item_sjxhydramix_loot.bundle",
 			"dependencyKeys": [
 				"items/client_assets.bundle",
 				"items/item_sjxhydramix_assets.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders",
+				"cubemaps"
+			]
+		},
+		{
+			"key": "items/item_sjxfr_assets.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "items/item_sjxfr_loot.bundle",
+			"dependencyKeys": [
+				"items/item_sjxhfr_assets.bundle",
 				"assets/commonassets/physics/physicsmaterials.bundle",
 				"shaders",
 				"cubemaps"
