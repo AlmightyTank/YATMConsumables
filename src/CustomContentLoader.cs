@@ -23,7 +23,7 @@ public record ModMetadata : AbstractModMetadata
         { "com.wtt.commonlib", new Range("~2.0.15") }
     };
     public override string? Url { get; init; } = null;
-    public override bool? IsBundleMod { get; init; } = false;
+    public override bool? IsBundleMod { get; init; } = true;
     public override string License { get; init; } = "MIT";
 }
 

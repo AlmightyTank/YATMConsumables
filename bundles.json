@@ -1,0 +1,24 @@
+{
+	"manifest": [
+		{
+			"key": "items/client_assets.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "items/item_sjxhydramix_assets.bundle",
+			"dependencyKeys": [
+				"epic_shaders.bundle"
+			]
+		},
+		{
+			"key": "items/item_sjxhydramix_loot.bundle",
+			"dependencyKeys": [
+				"items/client_assets.bundle",
+				"items/item_sjxhydramix_assets.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders",
+				"cubemaps"
+			]
+		}
+	]
+}

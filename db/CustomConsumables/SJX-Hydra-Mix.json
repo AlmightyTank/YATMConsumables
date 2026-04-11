@@ -1,6 +1,6 @@
 {
     "683361256ef8a3ee9b04d226": {
-        "itemTplToClone": "60098b1705871270cd5352a1",
+        "itemTplToClone": "5751435d24597720a27126d1",
         "parentId": "5448e8d64bdc2dce718b4568",
         "handbookParentId": "5b47574386f77428ca22b335",
 
@@ -16,6 +16,10 @@
                 "Energy": {
                     "value": 10
                 }
+            },
+            "Prefab": {
+                "path": "items/item_sjxhydramix_loot.bundle",
+                "rcid": ""
             }
         },
 
